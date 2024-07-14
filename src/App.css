@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+h3 {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-bottom: 10px;
+  color: #9966CC;
+  background-color: #E4F5E3;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 1000; 
+  height: 2.5rem;
+  border: 2px solid #ddd;
+  padding-left: 0px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+
+.table-container {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  height: 37rem;
+  margin-top: 3.8rem;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  width: 150px; 
+  height: -10px;
+  border: 3px solid #ddd;
+}
+
+
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f8f8;
+  z-index: 2;
+}
+
+
+
+.first-column {
+  position: sticky;
+  left: 0;
+  background-color: #f5fcf6;
+  z-index: 1;
+  width: 200px; 
+  margin-bottom: 34px;
+}
+
+
+.warehouse-header{
+  width: 23rem;
+  text-align: right;
+  position: sticky;
+  background-color: #F0EFE7;
+  color: #4E2A84;
+  font-size: 14px;
+}
+
+
+.total-item{
+  text-align: right;
+  margin-bottom: 9px;
+  
+}
+
+
+.item{
+  text-align: right;
+}
+
+
+.bordered-box{
+  border: 2px solid #ddd;
+  padding: 5px;
+}
+
+
+.balance-stock{
+   background-color: yellow;
+   border-bottom: 2px solid #ddd;
+}
+
+
+.all{
+  background-color: #d9ead3;
+}
+
+
+.subHeading{
+  background-color: #F0EFE7;
+  color: #4E2A84;
+  font-size: 14PX;
+}
+
+
+.sapling-balance{
+  margin-bottom:19px;
+}
+
+
+span {
+  background-color: yellow;
+  width: 110px; 
+  height: 20px; 
+  padding: 8px; 
+}
+
+
+.Balance{
+  width: 110px; 
+  height: 20px; 
+  padding: 8px; 
+  background-color: #d9ead3;
+}
